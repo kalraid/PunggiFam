@@ -1,0 +1,26 @@
+#server
+server:
+    port : 30080
+
+#mysql
+spring:
+  datasource:
+    driver-class-name:  com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test
+    username: root
+    password: 1234
+  # #AWS용
+  # datasource:
+  #   driver-class-name: com.mysql.jdbc.Driver
+  #   url: jdbc:mysql://<AWS RDS 엔드포인트>:3306/<DB_NAME>
+  #   username: <username>
+  #   password: <password>
+  #   platform: mysql
+  mvc:
+    static-path-pattern : /static/**
+
+
+#mybatis
+mybatis:
+  type-aliases-package : com.fammer.backend
+

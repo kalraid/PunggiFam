@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "D:\\WorkSpace\\Spring4\\fammer\\backend"
+		},
+		{
+			"path": "D:\\WorkSpace\\Spring4\\fammer\\frontend"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "automatic",
+		"files.exclude": {
+			"**/.classpath": true,
+			"**/.project": true,
+			"**/.settings": true,
+			"**/.factorypath": true
+		}
+	}
+}
